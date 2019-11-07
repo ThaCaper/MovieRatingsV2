@@ -17,11 +17,9 @@ namespace MovieRatingsV2
 
 
             }
-
-           
-
-            
         }
+        æaefjiig
+
 
         public int ListOfReviewsByInput(int reviewId)
         {
