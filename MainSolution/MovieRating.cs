@@ -14,34 +14,24 @@ namespace MovieRatingsV2
             {
                 string json = r.ReadToEnd();
                 _ReviewerList = JsonConvert.DeserializeObject<List<Reviewers>>(json);
-
-
             }
         }
-        æaefjiig
-
 
         public int ListOfReviewsByInput(int reviewId)
         {
             int count = 0;
             foreach (var movie in _ReviewerList)
             {
-
                 if (movie.Reviewer.Equals(reviewId))
                 {
                     count++;
                 }
-
             }
-            
             return count;
-
-
         }
 
         public double AverageGrade(int reviewId)
         {
-            
             double sum =0.0;
             int count = 0;
             foreach (var rating in _ReviewerList)
@@ -51,13 +41,8 @@ namespace MovieRatingsV2
                     count++;
                     sum += rating.Grade;
                 }
-
-
             }
-
             return sum / count;
-           
-
         }
 
         public int GivenReviewBySpecificGrade(int reviewId, int grade)
@@ -71,8 +56,6 @@ namespace MovieRatingsV2
                     counter++;
                 }
             }
-
-            
             return counter;
         }
 
@@ -86,7 +69,6 @@ namespace MovieRatingsV2
                     Counter++;
                 }
             }
-
             return Counter;
         }
 
@@ -102,9 +84,7 @@ namespace MovieRatingsV2
                     sum += thaMovie.Grade;
 
                 }
-                
             }
-
             return sum / counter;
         }
 
