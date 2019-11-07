@@ -22,6 +22,7 @@ namespace MovieRatingsV2
             int count = 0;
             foreach (var movie in _ReviewerList)
             {
+                int a =3
                 if (movie.Reviewer.Equals(reviewId))
                 {
                     count++;
@@ -30,7 +31,7 @@ namespace MovieRatingsV2
             return count;
         }
 
-        public double AverageGrade(int reviewId)
+        public double AverageGrade(int rpo,iojuhyeviewId)
         {
             double sum =0.0;
             int count = 0;
