@@ -8,11 +8,8 @@ namespace MSTest
     [TestClass]
     public class MSTestingMethods
     {
-<<<<<<< Updated upstream
-        readonly MovieRating mr = new MovieRating(@"C:\Users\andre\Documents\GitHub\MovieRatingsV2\ratings.json");
-=======
-        readonly MovieRating mr = new MovieRating(@"C:\Users\andre\Documents\GitHub\MovieRatingsV2\ratingexample.json");
->>>>>>> Stashed changes
+
+        readonly MovieRating mr = new MovieRating(@"..\..\..\..\ratingexample.json");
 
         //opgave 1
         [DataRow(1, 3)]
@@ -39,7 +36,7 @@ namespace MSTest
 
             Assert.AreEqual(4.333333333333333, avg);
         }
-        
+
         [TestMethod]
         public void TestMethod2avghastofail()
         {
@@ -100,7 +97,7 @@ namespace MSTest
         {
             Assert.AreNotEqual(mr.ListOfReviewedMovies(movieid), exp);
         }
-        
+
     }
 
 }
