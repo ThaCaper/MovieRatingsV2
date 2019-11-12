@@ -9,9 +9,9 @@ namespace XUnitPerformanceTest
     {
         private readonly int movieId = 1488844;
         private readonly int MAXTIME = 2;
-        readonly MovieRating mr = new MovieRating(@"C:\Users\andre\Documents\GitHub\MovieRatingsV2\ratings.json");
+        //readonly MovieRating mr = new MovieRating(@"C:\Users\andre\Documents\GitHub\MovieRatingsV2\ratings.json");
 
-        //readonly MovieRating mr = new MovieRating(@"C:\Users\Caspe\Documents\GitHub\MovieRatingsV2\ratings.json");
+        readonly MovieRating mr = new MovieRating(@"C:\Users\Caspe\Documents\GitHub\MovieRatingsV2\ratings.json");
 
         [Fact]
         public void Test1()
