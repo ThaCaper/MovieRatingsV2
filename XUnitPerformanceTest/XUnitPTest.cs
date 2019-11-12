@@ -8,11 +8,17 @@ namespace XUnitPerformanceTest
     public class XUnitPTest
     {
         private readonly int movieId = 1488844;
+<<<<<<< Updated upstream
         private readonly int MAXTIME = 4;
 
 
         readonly MovieRating mr = new MovieRating(@"C:\Users\andre\Documents\GitHub\MovieRatingsV2\ratings.json");
 
+=======
+        private readonly int MAXTIME = 5;
+        //readonly MovieRating mr = new MovieRating(@"C:\Users\andre\Documents\GitHub\MovieRatingsV2\ratings.json");
+        readonly MovieRating mr = new MovieRating(@"C:\Users\Caspe\Documents\GitHub\MovieRatingsV2\ratings.json");
+>>>>>>> Stashed changes
 
         [Fact]
         public void Test1()
