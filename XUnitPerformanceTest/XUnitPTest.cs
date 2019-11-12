@@ -10,10 +10,7 @@ namespace XUnitPerformanceTest
         private readonly int movieId = 1488844;
 
         private readonly int MAXTIME = 5;
-
-        
         readonly MovieRating mr = new MovieRating(@"..\..\..\..\ratings.json");
-
 
         [Fact]
         public void Test1()
