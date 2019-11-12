@@ -9,7 +9,7 @@ namespace MSTest
     public class MSTestingMethods
     {
 
-        readonly MovieRating mr = new MovieRating(@"..\..\..\..\ratings.json");
+        readonly MovieRating mr = new MovieRating(@"..\..\..\..\ratingexample.json");
 
         //opgave 1
         [DataRow(1, 3)]
