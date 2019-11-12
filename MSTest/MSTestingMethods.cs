@@ -11,9 +11,6 @@ namespace MSTest
 
         readonly MovieRating mr = new MovieRating(@"..\..\..\..\ratings.json");
 
-
-
-
         //opgave 1
         [DataRow(1, 3)]
         [DataTestMethod]
