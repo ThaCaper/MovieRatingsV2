@@ -9,9 +9,9 @@ namespace MSTest
     public class MSTestingMethods
     {
 
-        readonly MovieRating mr = new MovieRating(@"..\..\..\..\ratings.json");
+        readonly MovieRating mr = new MovieRating(@"C:\Users\andre\Documents\GitHub\MovieRatingsV2\ratings.json");
 
-
+       
 
 
         //opgave 1
@@ -39,7 +39,7 @@ namespace MSTest
 
             Assert.AreEqual(4.333333333333333, avg);
         }
-
+        
         [TestMethod]
         public void TestMethod2avghastofail()
         {
@@ -100,7 +100,7 @@ namespace MSTest
         {
             Assert.AreNotEqual(mr.ListOfReviewedMovies(movieid), exp);
         }
-
+        
     }
 
 }
