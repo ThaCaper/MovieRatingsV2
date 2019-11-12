@@ -1,0 +1,9 @@
+language: csharp
+mono: none
+dotnet: 2.2
+solution: MovieRatingsV2.sln
+
+script:
+ - dotnet restore
+ - dotnet build
+ - dotnet test MovieRatingsV2/XUnitPerformanceTest.csproj
