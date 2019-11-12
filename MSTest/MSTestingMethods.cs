@@ -8,11 +8,11 @@ namespace MSTest
     [TestClass]
     public class MSTestingMethods
     {
-<<<<<<< Updated upstream
-        readonly MovieRating mr = new MovieRating(@"C:\Users\andre\Documents\GitHub\MovieRatingsV2\ratings.json");
-=======
-        readonly MovieRating mr = new MovieRating(@"C:\Users\Caspe\Documents\GitHub\MovieRatingsV2\ratings.json");
->>>>>>> Stashed changes
+
+        readonly MovieRating mr = new MovieRating(@"..\..\..\..\ratings.json");
+
+       
+
 
         //opgave 1
         [DataRow(1, 3)]
