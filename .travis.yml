@@ -1,4 +1,3 @@
 language: cSharp
-language: ruby
 rvm:
  - 2.2
