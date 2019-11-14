@@ -1,9 +1,18 @@
+<<<<<<< Updated upstream
 language: csharp
+=======
+language: cSharp
+>>>>>>> Stashed changes
 mono: none
 dotnet: 2.2
 solution: MainSolution/MovieRatingsV2.sln
 
 script:
+<<<<<<< Updated upstream
  - dotnet restore
  - dotnet build
  - dotnet test MovieRatingsV2/XUnitPerformanceTest.csproj
+=======
+ - dotnet restore MainSolution/MovieRatingsV2.sln
+ - dotnet build MainSolution/MovieRatingsV2.sln
+>>>>>>> Stashed changes
