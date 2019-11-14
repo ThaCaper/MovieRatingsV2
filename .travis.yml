@@ -6,4 +6,5 @@ solution: MainSolution/MovieRatingsV2.sln
 script:
  - dotnet restore MainSolution/MovieRatingsV2.sln
  - dotnet build MainSolution/MovieRatingsV2.sln
+ - dotnet test XUnitPerformanceTest/XUnitPerformanceTest.csproj
 
